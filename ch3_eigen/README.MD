@@ -16,8 +16,7 @@ sudo ldconfig
 ### 2.2.1 Points, vectors, and coordinate systems.
 - Definition of **Trace**
 If A a square matrix, we can obtain $A^T$ by interchanging the entries that are symmetriically positions about the main diagonal. Example
-$$
-A= \begin{bmatrix}
+$$A= \begin{bmatrix}
 -1 && 2 && 4\\
 3 && 7 && 0 \\
 5 && 8 && -6
@@ -26,8 +25,7 @@ A^T = \begin{bmatrix}
 -1 && 3 && 5\\
 2 && 7 && 8 \\
 4 && 0 && -6
-\end{bmatrix}
-$$
+\end{bmatrix}$$
  trace of A is: 
  $tr(A) = tr(A^T)= -1 +7+(-6)=0$
  
