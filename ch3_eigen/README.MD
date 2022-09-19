@@ -36,7 +36,7 @@ $
 - Inner and Outer Product: If $u$ and $v$ are column vectors with the same size, then $u^Tv$ is the inner product of $u$ and $v$; if $u$ and $v$ are column vectors of **any size**, the $uv^T$ is the outer product of $u$ and $v$.
 
 Example inner product
-$
+$$
 u = \begin{bmatrix}
 -1\\
 3  \\
@@ -52,7 +52,14 @@ u = \begin{bmatrix}
 5  \\
 \end{bmatrix} \space 
 = -1.2 + 3.5 =13
-$
+$$
+
+$$
+{\left\lbrack \matrix{2 & 3 \cr 4 & 5} \right\rbrack} 
+* \left\lbrack \matrix{1 & 0 \cr 0 & 1} \right\rbrack
+= \left\lbrack \matrix{2 & 3 \cr 4 & 5} \right\rbrack
+$$
+
 Example outer product
 $$
 uv^T =\begin{bmatrix}
