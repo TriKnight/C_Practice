@@ -1,7 +1,3 @@
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
 
 # Chapter 2. 3D Rigid Body Motion
 **Main Goal:**
@@ -22,8 +18,7 @@ sudo ldconfig
 - Definition of **Trace**
 If A a square matrix, we can obtain $A^T$ by interchanging the entries that are symmetriically positions about the main diagonal. Example
 
-$
-A= \begin{bmatrix}
+$$A= \begin{bmatrix}
 -1 && 2 && 4\\
 3 && 7 && 0 \\
 5 && 8 && -6
@@ -32,8 +27,7 @@ A^T = \begin{bmatrix}
 -1 && 3 && 5\\
 2 && 7 && 8 \\
 4 && 0 && -6
-\end{bmatrix}
-$
+\end{bmatrix}$$
 
  trace of A is: 
  $tr(A) = tr(A^T)= -1 +7+(-6)=0$
@@ -41,8 +35,7 @@ $
 - Inner and Outer Product: If $u$ and $v$ are column vectors with the same size, then $u^Tv$ is the inner product of $u$ and $v$; if $u$ and $v$ are column vectors of **any size**, the $uv^T$ is the outer product of $u$ and $v$.
 
 Example inner product
-$$
-u = \begin{matrix}
+$$u = \begin{matrix}
 -1\\
 3  \\
 \end{matrix} \space  
@@ -56,8 +49,7 @@ u = \begin{matrix}
 2\\
 5  \\
 \end{matrix} \space 
-= -1.2 + 3.5 =13
-$$
+= -1.2 + 3.5 =13$$
 
 
 Example outer product
