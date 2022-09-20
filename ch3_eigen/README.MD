@@ -53,7 +53,6 @@ $$u = \begin{bmatrix}
 \end{bmatrix} 
 = -1.2 + 3.5 =13$$
 
-
 Example outer product
 
 $$uv^T =\begin{bmatrix}
