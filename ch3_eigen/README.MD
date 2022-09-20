@@ -39,17 +39,18 @@ Example inner product
 $$u = \begin{bmatrix}
 -1\\
 3  \\
-\end{bmatrix} \space  
+\end{bmatrix}  
 , v = \begin{bmatrix}
 2\\
 5  \\
-\end{bmatrix} \space 
+\end{bmatrix} 
 , u^Tv =\begin{bmatrix}
 -1 &&3\\
-\end{bmatrix} \space  \begin{bmatrix}
+\end{bmatrix} 
+\begin{bmatrix}
 2\\
 5  \\
-\end{bmatrix} \space 
+\end{bmatrix} 
 = -1.2 + 3.5 =13$$
 
 
@@ -57,10 +58,10 @@ Example outer product
 
 $$uv^T =\begin{bmatrix}
 -1 \\ 3\\
-\end{bmatrix} \space  
+\end{bmatrix} 
 \begin{bmatrix}
 2 && 5  \\
-\end{bmatrix} \space =
+\end{bmatrix} =
 \begin{bmatrix}
 -1.2 && -1.5 \\
 3.2 && 3.5
@@ -79,7 +80,7 @@ $$a \times b = [a]_{\times} b =
 a_3 && 0 && -a_1 \\
 -a_2 && a_1 && 0
 \end{bmatrix} \begin{bmatrix}
-b_1 \\ b_2 \\b_3
+b_1 \\ b_2 \\ b_3
 \end{bmatrix}$$
 
 
@@ -95,7 +96,7 @@ This set of transform matrices is also known as the special Euclidean group:
 $$SE(3) = \{ T = \begin{bmatrix}
 R && t  \\
 0^T && 1
-\end{bmatrix} \in \R ^{4\times4} | R \in SO(3),  t \in \R^3\}$$
+\end{bmatrix} \in R^{4\times4} | R \in SO(3),  t \in R^3\}$$
 
 Practice: Use Eigen, Install Eigen
 ```
