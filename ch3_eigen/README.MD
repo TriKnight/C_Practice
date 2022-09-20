@@ -35,6 +35,7 @@ A^T = \begin{bmatrix}
 - Inner and Outer Product: If $u$ and $v$ are column vectors with the same size, then $u^Tv$ is the inner product of $u$ and $v$; if $u$ and $v$ are column vectors of **any size**, the $uv^T$ is the outer product of $u$ and $v$.
 
 Example inner product
+
 $$u = \begin{bmatrix}
 -1\\
 3  \\
@@ -53,6 +54,7 @@ $$u = \begin{bmatrix}
 
 
 Example outer product
+
 $$uv^T =\begin{bmatrix}
 -1 \\ 3\\
 \end{bmatrix} \space  
@@ -69,7 +71,8 @@ $$uv^T =\begin{bmatrix}
  6 && 15
 \end{bmatrix}$$
 
-- Cross product: In mathematics, the cross product or vector product (occasionally directed area product, to emphasize its geometric significance) is a binary operation on two vectors in a three-dimensional oriented Euclidean vector space , and is denoted by the symbol × . Given two linearly independent vectors a and b, the cross product, a × b (read "a cross b"), is a vector that is perpendicular to both a and b, and thus normal to the plane containing them. (wiki). Where $[a]_{\times} $ is skew-symmetric matrix 
+- Cross product: In mathematics, the cross product or vector product (occasionally directed area product, to emphasize its geometric significance) is a binary operation on two vectors in a three-dimensional oriented Euclidean vector space , and is denoted by the symbol × . Given two linearly independent vectors a and b, the cross product, a × b (read "a cross b"), is a vector that is perpendicular to both a and b, and thus normal to the plane containing them. (wiki). Where $[a]_{\times}$ is skew-symmetric matrix 
+
 $$a \times b = [a]_{\times} b =
 \begin{bmatrix}
 0  && -a_3 && a_2 \\
@@ -81,6 +84,7 @@ b_1 \\ b_2 \\b_3
 
 
 Homogeneous coordinates are a 4D vector with $R$ as a rotation matrix, and $t$ as translation.
+
 $$\begin{bmatrix}
 R && t  \\
 0^T && 1
@@ -92,6 +96,7 @@ $$SE(3) = \{ T = \begin{bmatrix}
 R && t  \\
 0^T && 1
 \end{bmatrix} \in \R ^{4\times4} | R \in SO(3),  t \in \R^3\}$$
+
 Practice: Use Eigen, Install Eigen
 ```
 sudo apt−get install libeigen3−dev
@@ -106,9 +111,9 @@ Basic working with matrix and matrix operation by run an example `eigenMatrix.cp
 
 Consider a rotation represented by $R$. If described by a rotation vector, assuming that the rotation axis is a unit-length vector $n$ and the angle is $\theta$, then the vector
 $\theta n$ can also describe this rotation.
-$$
-R = cos\theta I + (1-cos\theta)nn^T + sin\theta [n]_\times
-$$ 
+
+$$R = cos\theta I + (1-cos\theta)nn^T + sin\theta [n]_\times$$ 
+
 Where $[n]_\times$ is vector to skew-symmetric conversion, $I$ is the identiy matrix
 
 - Euler Angles and Quaternions
