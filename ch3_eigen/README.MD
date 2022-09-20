@@ -58,19 +58,18 @@ Example outer product
 
 $$uv^T =\begin{bmatrix}
 -1 \\ 3\\
-\end{bmatrix} 
+\end{bmatrix}
 \begin{bmatrix}
 2 && 5  \\
 \end{bmatrix} =
 \begin{bmatrix}
 -1.2 && -1.5 \\
 3.2 && 3.5
-\end{bmatrix}
-=
+\end{bmatrix} =
 \begin{bmatrix}
 -2 && -5 \\
  6 && 15
-\end{bmatrix}$$
+\end{bmatrix} .$$
 
 - Cross product: In mathematics, the cross product or vector product (occasionally directed area product, to emphasize its geometric significance) is a binary operation on two vectors in a three-dimensional oriented Euclidean vector space , and is denoted by the symbol × . Given two linearly independent vectors a and b, the cross product, a × b (read "a cross b"), is a vector that is perpendicular to both a and b, and thus normal to the plane containing them. (wiki). Where $[a]_{\times}$ is skew-symmetric matrix 
 
