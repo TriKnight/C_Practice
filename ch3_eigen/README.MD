@@ -37,23 +37,21 @@ $
 
 Example inner product
 $$
-\begin{equation}
-u = \begin{bmatrix}
+u = \begin{matrix}
 -1\\
 3  \\
-\end{bmatrix} \space  
-, v = \begin{bmatrix}
+\end{matrix} \space  
+, v = \begin{matrix}
 2\\
 5  \\
-\end{bmatrix} \space 
-, u^Tv =\begin{bmatrix}
+\end{matrix} \space 
+, u^Tv =\begin{matrix}
 -1 &&3\\
-\end{bmatrix} \space  \begin{bmatrix}
+\end{matrix} \space  \begin{matrix}
 2\\
 5  \\
-\end{bmatrix} \space 
+\end{matrix} \space 
 = -1.2 + 3.5 =13
-\end{equation}
 $$
 
 
