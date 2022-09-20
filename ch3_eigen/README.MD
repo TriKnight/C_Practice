@@ -35,26 +35,25 @@ A^T = \begin{bmatrix}
 - Inner and Outer Product: If $u$ and $v$ are column vectors with the same size, then $u^Tv$ is the inner product of $u$ and $v$; if $u$ and $v$ are column vectors of **any size**, the $uv^T$ is the outer product of $u$ and $v$.
 
 Example inner product
-$$u = \begin{matrix}
+$$u = \begin{bmatrix}
 -1\\
 3  \\
-\end{matrix} \space  
-, v = \begin{matrix}
+\end{bmatrix} \space  
+, v = \begin{bmatrix}
 2\\
 5  \\
-\end{matrix} \space 
-, u^Tv =\begin{matrix}
+\end{bmatrix} \space 
+, u^Tv =\begin{bmatrix}
 -1 &&3\\
-\end{matrix} \space  \begin{matrix}
+\end{bmatrix} \space  \begin{bmatrix}
 2\\
 5  \\
-\end{matrix} \space 
+\end{bmatrix} \space 
 = -1.2 + 3.5 =13$$
 
 
 Example outer product
-$$
-uv^T =\begin{bmatrix}
+$$uv^T =\begin{bmatrix}
 -1 \\ 3\\
 \end{bmatrix} \space  
 \begin{bmatrix}
@@ -68,36 +67,31 @@ uv^T =\begin{bmatrix}
 \begin{bmatrix}
 -2 && -5 \\
  6 && 15
-\end{bmatrix}
-$$
+\end{bmatrix}$$
 
 - Cross product: In mathematics, the cross product or vector product (occasionally directed area product, to emphasize its geometric significance) is a binary operation on two vectors in a three-dimensional oriented Euclidean vector space , and is denoted by the symbol × . Given two linearly independent vectors a and b, the cross product, a × b (read "a cross b"), is a vector that is perpendicular to both a and b, and thus normal to the plane containing them. (wiki). Where $[a]_{\times} $ is skew-symmetric matrix 
-$$
-a \times b = [a]_{\times} b =
+$$a \times b = [a]_{\times} b =
 \begin{bmatrix}
 0  && -a_3 && a_2 \\
 a_3 && 0 && -a_1 \\
 -a_2 && a_1 && 0
 \end{bmatrix} \begin{bmatrix}
 b_1 \\ b_2 \\b_3
-\end{bmatrix} 
-$$
+\end{bmatrix}$$
 
 
 Homogeneous coordinates are a 4D vector with $R$ as a rotation matrix, and $t$ as translation.
-$$
-\begin{bmatrix}
+$$\begin{bmatrix}
 R && t  \\
 0^T && 1
-\end{bmatrix}
-$$
+\end{bmatrix}$$
+
 This set of transform matrices is also known as the special Euclidean group:
-$$
-SE(3) = \{ T = \begin{bmatrix}
+
+$$SE(3) = \{ T = \begin{bmatrix}
 R && t  \\
 0^T && 1
-\end{bmatrix} \in \R ^{4\times4} | R \in SO(3),  t \in \R^3\} 
-$$
+\end{bmatrix} \in \R ^{4\times4} | R \in SO(3),  t \in \R^3\}$$
 Practice: Use Eigen, Install Eigen
 ```
 sudo apt−get install libeigen3−dev
