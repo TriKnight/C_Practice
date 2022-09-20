@@ -37,6 +37,7 @@ $
 
 Example inner product
 $$
+\begin{equation}
 u = \begin{bmatrix}
 -1\\
 3  \\
@@ -52,13 +53,9 @@ u = \begin{bmatrix}
 5  \\
 \end{bmatrix} \space 
 = -1.2 + 3.5 =13
+\end{equation}
 $$
 
-$$
-{\left\lbrack \matrix{2 & 3 \cr 4 & 5} \right\rbrack} 
-* \left\lbrack \matrix{1 & 0 \cr 0 & 1} \right\rbrack
-= \left\lbrack \matrix{2 & 3 \cr 4 & 5} \right\rbrack
-$$
 
 Example outer product
 $$

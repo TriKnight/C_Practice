@@ -4,3 +4,4 @@ https://github.com/artivis/manif
 https://www.youtube.com/watch?v=nHOcoIyJj2o
 
 https://norlab.ulaval.ca/research/LieCheatsheet/
+
