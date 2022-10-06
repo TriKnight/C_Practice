@@ -133,19 +133,43 @@ Where $[n]_\times$ is vector to skew-symmetric conversion, $I$ is the identiy ma
 * use pangolin: slambook/3rdpart/Pangolin or download it from github: https://github.com/stevenlovegrove/Pangolin
 
 * install dependency for pangolin (mainly the OpenGL): 
-sudo apt-get install libglew-dev
+```sudo apt-get install libglew-dev```
 
 * compile and install pangolin
+
+```
 cd [path-to-pangolin]
 mkdir build
 cd build
 cmake ..
 make 
 sudo make install 
+```
 
 * Add to the CMakeLists.txt
 ```
 find_package(Pangolin REQUIRED)
 include_directories(${Pangolin_INCLUDE_DIRS})
 target_link_libraries(plotTrajectory ${Pangolin_LIBRARIES})
+```
+
+* Config c_pp_propertive in VSCode
+```
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/eigen3"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
 ```
