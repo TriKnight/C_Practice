@@ -1,4 +1,0 @@
-/home/robotlab/Desktop/SLAMBOOK/SLAM_practice/ch4_liegroup/build/CMakeFiles/useSophus.dir
-/home/robotlab/Desktop/SLAMBOOK/SLAM_practice/ch4_liegroup/build/CMakeFiles/trajectoryError.dir
-/home/robotlab/Desktop/SLAMBOOK/SLAM_practice/ch4_liegroup/build/CMakeFiles/edit_cache.dir
-/home/robotlab/Desktop/SLAMBOOK/SLAM_practice/ch4_liegroup/build/CMakeFiles/rebuild_cache.dir

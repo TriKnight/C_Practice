@@ -5,6 +5,7 @@ project(useSophus)
 # Add header file
 include_directories("/usr/include/eigen3")
 find_package(Sophus REQUIRED)
+include_directories("/opt/local/include/pangolin")
 find_package(Pangolin REQUIRED)
 find_package(fmt REQUIRED)
 # Add executable

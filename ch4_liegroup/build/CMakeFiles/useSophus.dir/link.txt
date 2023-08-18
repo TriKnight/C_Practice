@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/useSophus.dir/useSophus.cpp.o -o useSophus  /usr/lib/x86_64-linux-gnu/libfmt.a 

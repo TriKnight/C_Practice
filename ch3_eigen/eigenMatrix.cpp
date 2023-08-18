@@ -33,7 +33,12 @@ int main(int argc , char **argv){
 
     //---------Operation of the Matrix -----------
     //Input data
-    matrix_23 << 1, 2, 3, 4, 5, 6;
+    cout << "Input matrix 2x3 from 1 to 6: " << endl;
+    for(int i=0; i <2; i++){
+        for(int j=0; j<3; j++)
+        cin >> matrix_23(i,j);
+    }
+    
     //Output
     cout << "matrix 2x3 from 1 to 6: \n" << matrix_23 << endl;
     // Use () to access elements in the matrix

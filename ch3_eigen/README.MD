@@ -130,10 +130,16 @@ Where $[n]_\times$ is vector to skew-symmetric conversion, $I$ is the identiy ma
  The trajectory file called "trajectory.txt" has each line format:  $time, t_x, t_y, t_z, q_x, q_y, q_z, q_w$  with $t$ is translatition, $q$ is quaternion.
 
 ### Install Pangolin
-* use pangolin: slambook/3rdpart/Pangolin or download it from github: https://github.com/stevenlovegrove/Pangolin
-
+* use pangolin: slambook/3rdpart/Pangolin or download it from github: 
+Please choose the stable version in the tag example "v0.8" to download
+```
+https://github.com/stevenlovegrove/Pangolin/tags
+```
 * install dependency for pangolin (mainly the OpenGL): 
-```sudo apt-get install libglew-dev```
+```
+sudo apt-get install libglew-dev
+sudo apt -y install python3-pybind11
+```
 
 * compile and install pangolin
 
